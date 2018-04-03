@@ -20,7 +20,7 @@ class QuestionAdmin(admin.ModelAdmin):
 
     #adds a search box at the top of the change list
     search_fields = ['question_text']
-    
+
     fieldsets = [
         (None,              {'fields': ['question_text']}),
         ('Data information', {'fields': ['pub_date']}),
